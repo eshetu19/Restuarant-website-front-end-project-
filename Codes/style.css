@@ -87,13 +87,7 @@ header .logo {
   font-weight: bolder;
   color: gray;
 }
-/*
-icon style
-header .logo i{
-padding right:.5rem;
-color:var(--red)
-}
-*/
+
 
 header .navbar a {
   font-size: 2rem;
@@ -172,7 +166,7 @@ header .navbar a:hover {
   left: 0;
 }
 
-/*moveable part*/
+
 .speciality .box-container .box .content image {
   text-align: center;
   background: #fff;
@@ -239,13 +233,7 @@ header .navbar a:hover {
   font-size: 2.5rem;
   color: #333;
 }
-/*
-.popular .box-container .box i{
-color:gold;
-font-size:1.7rem;
-padding-top:1rem 0.1rem;
-}
-*/
+
 .steps {
   display: flex;
   flex-wrap: wrap;
@@ -423,39 +411,7 @@ padding-top:1rem 0.1rem;
 .footer .credit span {
   color: var(--red);
 }
-/*
-#scroll-top {
-  position: fixed;
-  top: -120%;
-  right: 2rem;
-  padding: 0.5rem 1.5rem;
-  font-size: 4rem;
-  background: var(--red);
-  color: #fff;
-  border-radius: 0.5rem;
-  transition: 1s linear;
-  z-index:1000;
-}
-  #scroll-top.active{
-  top:calc(100% - 12rem)
-}
 
-.loader-container{
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-.loader-container .fade-out{
-  top: -120%;
-}
-*/
 /*media queries*/
 @media (max-width: 991px) {
   html {
